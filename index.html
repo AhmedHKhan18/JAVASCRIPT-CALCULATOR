@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url(https://www.shutterstock.com/shutterstock/photos/97226315/display_1500/stock-vector-seamless-mathematics-or-math-education-background-texture-in-vector-format-ready-for-tiling-97226315.jpg); background-size: cover; background-repeat: no-repeat;">
+  <!-- <h1>CALCULATOR</h1> -->
+    <div class="calculator">
+        <div id="display"></div>
+        <div class="buttons">
+          <div class="operators">
+            <div onclick="keypress(`+`)">+</div>
+            <div onclick="keypress(`-`)">-</div>
+            <div onclick="keypress(`*`)">&times;</div>
+            <div onclick="keypress(`/`)">&divide;</div>
+          </div>
+          <div class="leftPanel">
+            <div id="numbers">
+              <div onclick="keypress(`7`)">7</div>
+              <div onclick="keypress(`8`)">8</div>
+              <div onclick="keypress(`9`)">9</div>
+            </div>
+            <div id="numbers">
+              <div onclick="keypress(`4`)">4</div>
+              <div onclick="keypress(`5`)">5</div>
+              <div onclick="keypress(`6`)">6</div>
+            </div>
+            <div id="numbers">
+              <div onclick="keypress(`1`)">1</div>
+              <div onclick="keypress(`2`)">2</div>
+              <div onclick="keypress(`3`)">3</div>
+            </div>
+            <div id="numbers">
+              <div onclick="keypress(`0`)">0</div>
+              <div onclick="keypress(`.`)">.</div>
+              <div id="clear" onclick="allClear(`c`)">AC</div>
+            </div>
+          </div>
+          <div class="equal" id="result" onclick="calculate(`=`)">=</div>
+        </div>
+      </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- <main>
+        <div class="maindiv"></div>
+        <div class="operator" onclick="keypress(%)">%</div>
+        <div class="operator" onclick="keypress(7)">7</div>
+        <div class="operator" onclick="keypress(8)">8</div>
+        <div class="operator" onclick="keypress(9)">9</div>
+        <div class="operator" onclick="keypress(*)">*</div>
+        <div class="operator" onclick="keypress(4)">4</div>
+        <div class="operator" onclick="keypress(5)">5</div>
+        <div class="operator" onclick="keypress(6)">6</div>
+        <div class="operator" onclick="keypress(-)">-</div>
+        <div class="operator" onclick="keypress(1)">1</div>
+        <div class="operator" onclick="keypress(2)">2</div>
+        <div class="operator" onclick="keypress(3)">3</div>
+        <div class="operator" onclick="keypress(+)">+</div>
+        <div class="operator" onclick="keypress(.)">.</div>
+        <div class="operator" onclick="keypress(0)">0</div>
+        <div class="operator" onclick="keypress(=)">=</div>
+    </main> -->
+    <script src="index.js"></script>
+</body>
+</html>
